@@ -109,6 +109,10 @@ local plugins = {
 
     end
   },
+  {
+    "hashivim/vim-terraform",
+    ft = {"terraform"}
+  },
 }
 
 return plugins
