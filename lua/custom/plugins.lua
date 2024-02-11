@@ -56,7 +56,7 @@ local plugins = {
     ft = "python",
     dependencies = {
       "mfussenegger/nvim-dap",
-      "mfussenegger/nvim-dap-ui",
+      "rcarriga/nvim-dap-ui",
     },
     config = function (_, _)
       local path = "~/.local/share/nvim/mason/packages/debugpy/venv/bin/python"
